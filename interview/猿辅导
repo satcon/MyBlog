@@ -1,0 +1,71 @@
+```java
+// 将两个有序链表合并为一个新的有序链表并返回。
+private Node merge(Node node1, Node node2) {
+        Node left = node1, right = node2, result = new Node(), head = result;
+        // 两个node全不为空则继续
+        while (left != null && right != null) {
+            if (result.next == null) {
+                result.next = new Node();
+            }
+            int v1 = left.val;
+            int v2 = right.val;
+            if (v1 >= v2) {
+                result.next.val = v2;
+                right = right.next;
+            } else {
+                result.next.val = v1;
+                left = left.next;
+            }
+            result = result.next;
+        }
+        // 此时左边不为空则代表right为空， 将左边数据完全放入集合
+        if (left != null) {
+            result.next = left;
+        }
+        else {
+            result.next = right;
+        }
+        return head.next;
+    }
+```
+
+```java
+// 给定一个二叉树，找出其最大深度。
+// 二叉树的深度为根节点到最远叶子节点的最长路径上的节点数。
+// 说明: 叶子节点是指没有子节点的节点。
+
+// 层序遍历也行，此方法为深度遍历
+    private int findMaxDeep(Node node) {
+        if (node == null) {
+            return 0;
+        }
+        int left = this.findMaxDeep(node.left);
+        int right = this.findMaxDeep(node.right);
+        
+        return Math.max(left, right) + 1;
+    }
+```
+
+```
+一个数组，有99个数
+1。。。99
+
+第一次随机 5
+第二次随机8
+。。。
+第99随机49
+
+随机只能用99次，把这个99个数随机完
+
+
+
+// 1-99
+// 调用随机数函数 => 5
+// 1-5 => 3
+// 1-1 => 1
+
+
+// （0    5                      100)
+// （0   5)    (5     100)
+```
+
