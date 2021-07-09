@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-09T05:10:43.517Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="KQf4nyAQ9uCZ-k4nBj78" version="14.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-09T05:17:40.103Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="IeWBoscHLvAh4LCIWZkm" version="14.8.2" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="2062" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2062" dy="1066" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -49,7 +49,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="AqlT76Oq7zfoqeTl97pu-1" value="审批平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=2;fontSize=14;strokeColor=#CC0000;fillColor=#fff2cc;" vertex="1" parent="1">
-          <mxGeometry x="1146" y="80" width="100" height="1510" as="geometry" />
+          <mxGeometry x="1146" y="80" width="100" height="1520" as="geometry" />
         </mxCell>
         <mxCell id="AqlT76Oq7zfoqeTl97pu-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1.5;fontSize=14;strokeColor=#CC0000;" vertex="1" parent="AqlT76Oq7zfoqeTl97pu-1">
           <mxGeometry x="45" y="751" width="10" height="99" as="geometry" />
@@ -138,7 +138,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="AqlT76Oq7zfoqeTl97pu-22" value="物财平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=2;fontSize=14;strokeColor=#CC0000;fillColor=#fff2cc;" vertex="1" parent="1">
-          <mxGeometry x="1780" y="80" width="100" height="1360" as="geometry" />
+          <mxGeometry x="1732" y="80" width="100" height="1520" as="geometry" />
         </mxCell>
         <mxCell id="AqlT76Oq7zfoqeTl97pu-39" value="" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=4;spacingRight=4;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;rounded=0;shadow=0;glass=0;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="1130" y="720" width="20" height="14" as="geometry" />
@@ -155,8 +155,8 @@
         <mxCell id="AqlT76Oq7zfoqeTl97pu-43" value="" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=4;spacingRight=4;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;rounded=0;shadow=0;glass=0;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="1130" y="720" width="20" height="14" as="geometry" />
         </mxCell>
-        <mxCell id="AqlT76Oq7zfoqeTl97pu-46" value="金蟾应付结算" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;fontSize=14;strokeColor=#CC0000;strokeWidth=2;fillColor=#fff2cc;" vertex="1" parent="1">
-          <mxGeometry x="860" y="1660" width="120" height="40" as="geometry" />
+        <mxCell id="AqlT76Oq7zfoqeTl97pu-46" value="国际物流" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;fontSize=14;strokeColor=#CC0000;strokeWidth=2;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="118" y="1600" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="AqlT76Oq7zfoqeTl97pu-48" value="12.1 通过，更新结算单和发票状态" style="edgeStyle=orthogonalEdgeStyle;html=1;align=center;endArrow=block;rounded=0;shadow=0;fontSize=15;fontColor=#0066CC;fontStyle=1;verticalAlign=bottom;strokeColor=#0000FF;strokeWidth=1.5;spacing=2;sketch=0;" edge="1" parent="1">
           <mxGeometry x="-0.12" y="46" relative="1" as="geometry">
@@ -192,10 +192,10 @@
         <mxCell id="AqlT76Oq7zfoqeTl97pu-54" value="&lt;span style=&quot;font-size: 14px&quot;&gt;出纳驳回&lt;/span&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=7;verticalAlign=top;align=center;rounded=0;shadow=0;glass=0;sketch=1;strokeWidth=1.5;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="580" y="1670" width="220" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="AqlT76Oq7zfoqeTl97pu-55" value="14. 出纳驳回" style="verticalAlign=bottom;endArrow=block;strokeWidth=1.5;fontSize=15;jumpSize=6;shadow=0;spacing=2;fontStyle=1;strokeColor=#FF0000;rounded=0;sketch=0;fontColor=#FF0000;" edge="1" parent="1" target="3nuBFxr9cyL0pnOWT2aG-5">
+        <mxCell id="AqlT76Oq7zfoqeTl97pu-55" value="14. 出纳驳回" style="verticalAlign=bottom;endArrow=block;strokeWidth=1.5;fontSize=15;jumpSize=6;shadow=0;spacing=2;fontStyle=1;strokeColor=#FF0000;rounded=0;sketch=0;fontColor=#FF0000;" edge="1" parent="1">
           <mxGeometry x="-0.4214" y="-27" relative="1" as="geometry">
-            <mxPoint x="1826" y="1327" as="sourcePoint" />
-            <mxPoint x="1210" y="1330" as="targetPoint" />
+            <mxPoint x="1778" y="1327" as="sourcePoint" />
+            <mxPoint x="640" y="1327" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -217,6 +217,15 @@
             <mxPoint x="175" y="1480" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="AqlT76Oq7zfoqeTl97pu-58" value="金蟾应付结算" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;fontSize=14;strokeColor=#CC0000;strokeWidth=2;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="580" y="1600" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AqlT76Oq7zfoqeTl97pu-59" value="审批平台" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;fontSize=14;strokeColor=#CC0000;strokeWidth=2;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="1146" y="1600" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AqlT76Oq7zfoqeTl97pu-60" value="物财平台" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;fontSize=14;strokeColor=#CC0000;strokeWidth=2;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="1732" y="1600" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
