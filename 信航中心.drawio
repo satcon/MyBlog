@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-14T09:09:00.669Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="dmVIJlTfJ10bmAHyJWL2" version="20.5.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-11-14T09:10:44.116Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="SgWKIn_ILOLh5l_vBMdy" version="20.5.3" type="github" pages="3">
   <diagram id="4lgrj3mp336xDfMQ0uTW" name="信航中心核心流程">
     <mxGraphModel dx="1550" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -87,7 +87,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7ftw-xkcRDEcuufJaLak-24" value="确认人ERP是否在结算组？" style="rhombus;whiteSpace=wrap;html=1;fontSize=13;rounded=0;glass=0;strokeWidth=1;shadow=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="177" y="913" width="125" height="83" as="geometry" />
+          <mxGeometry x="177" y="913" width="123" height="77" as="geometry" />
         </mxCell>
         <mxCell id="7ftw-xkcRDEcuufJaLak-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=13;fontColor=#000000;endArrow=block;endFill=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="7ftw-xkcRDEcuufJaLak-26" target="7ftw-xkcRDEcuufJaLak-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -106,13 +106,13 @@
         <mxCell id="7ftw-xkcRDEcuufJaLak-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=13;fontColor=#000000;endArrow=block;endFill=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="7ftw-xkcRDEcuufJaLak-29" target="7ftw-xkcRDEcuufJaLak-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7ftw-xkcRDEcuufJaLak-29" value="是否转派" style="rhombus;whiteSpace=wrap;html=1;fontSize=13;rounded=0;glass=0;strokeWidth=1;shadow=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="184" y="1120" width="110" height="90" as="geometry" />
+        <mxCell id="7ftw-xkcRDEcuufJaLak-29" value="转派or关单" style="rhombus;whiteSpace=wrap;html=1;fontSize=13;rounded=0;glass=0;strokeWidth=1;shadow=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="186" y="1130" width="106" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="7ftw-xkcRDEcuufJaLak-30" value="YES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="7ftw-xkcRDEcuufJaLak-30" value="转派" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="124" y="1139" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7ftw-xkcRDEcuufJaLak-31" value="关单" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;glass=0;strokeWidth=1;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="7ftw-xkcRDEcuufJaLak-31" value="结束" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;glass=0;strokeWidth=1;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="179" y="1249" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ElStG_bO079be_FlttDk-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;fontColor=#000000;endArrow=block;strokeColor=#82b366;strokeWidth=2;endFill=0;fillColor=#d5e8d4;" edge="1" parent="1" source="7ftw-xkcRDEcuufJaLak-33" target="ElStG_bO079be_FlttDk-15">
