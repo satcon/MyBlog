@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-14T07:55:20.068Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="4yQm0Q39buVgwatmdVLu" version="20.5.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-11-14T08:41:48.028Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="K3JIDgMOKCh1hViIM7Pk" version="20.5.3" type="github" pages="3">
   <diagram id="4lgrj3mp336xDfMQ0uTW" name="信航中心核心流程">
     <mxGraphModel dx="1550" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -185,6 +185,71 @@
       </root>
     </mxGraphModel>
   </diagram>
+  <diagram id="zkCcTM8fq7JFRcWxrbdX" name="寻找确认结算组">
+    <mxGraphModel dx="1550" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4yWfeNI9m5NWleD1tJs8-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Z7CWqkrv_SDCrBXKE-1I-1" target="4yWfeNI9m5NWleD1tJs8-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z7CWqkrv_SDCrBXKE-1I-1" value="已认领任务" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;glass=0;strokeWidth=1;shadow=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="24" y="169.5" width="96" height="40.5" as="geometry" />
+        </mxCell>
+        <mxCell id="4yWfeNI9m5NWleD1tJs8-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Z7CWqkrv_SDCrBXKE-1I-2" target="4yWfeNI9m5NWleD1tJs8-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u2u1sDKU7REfBMXMlNqq-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Z7CWqkrv_SDCrBXKE-1I-2" target="u2u1sDKU7REfBMXMlNqq-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z7CWqkrv_SDCrBXKE-1I-2" value="确认人是否属于结算组" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=13;align=center;strokeWidth=1;spacing=6;spacingTop=-4;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="339" y="150" width="110" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="4yWfeNI9m5NWleD1tJs8-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4yWfeNI9m5NWleD1tJs8-1" target="Z7CWqkrv_SDCrBXKE-1I-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4yWfeNI9m5NWleD1tJs8-1" value="认领人操作确认" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;glass=0;strokeWidth=1;shadow=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="166" y="169.5" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZDNPm4Z6J83ZKpsJVjza-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="4yWfeNI9m5NWleD1tJs8-4" target="ZDNPm4Z6J83ZKpsJVjza-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4yWfeNI9m5NWleD1tJs8-4" value="查找任务流转表：&lt;br&gt;倒序，找到最后一条满足结算组类型的ERP" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;glass=0;strokeWidth=1;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="330" y="280" width="128" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4yWfeNI9m5NWleD1tJs8-6" value="NO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="376" y="240" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZDNPm4Z6J83ZKpsJVjza-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4yWfeNI9m5NWleD1tJs8-7" target="u2u1sDKU7REfBMXMlNqq-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4yWfeNI9m5NWleD1tJs8-7" value="待处理ERP操作确认" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;glass=0;strokeWidth=1;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="1">
+          <mxGeometry x="525" y="280" width="126" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ZDNPm4Z6J83ZKpsJVjza-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="u2u1sDKU7REfBMXMlNqq-1" target="ZDNPm4Z6J83ZKpsJVjza-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u2u1sDKU7REfBMXMlNqq-1" value="待发起人确认" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;glass=0;strokeWidth=1;shadow=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="536" y="169.5" width="104" height="40.5" as="geometry" />
+        </mxCell>
+        <mxCell id="u2u1sDKU7REfBMXMlNqq-3" value="YES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="458" y="160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZDNPm4Z6J83ZKpsJVjza-2" value="关单" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;glass=0;strokeWidth=1;shadow=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="706" y="170" width="88" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZDNPm4Z6J83ZKpsJVjza-5" value="确认操作寻找最后一条&lt;br&gt;满足结算组类型流程" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=0;flipH=0;flipV=0;size=18;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;align=left;spacing=2;spacingTop=0;spacingBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="24" y="90" width="156" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZDNPm4Z6J83ZKpsJVjza-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="1" source="ZDNPm4Z6J83ZKpsJVjza-8" target="4yWfeNI9m5NWleD1tJs8-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZDNPm4Z6J83ZKpsJVjza-8" value="&lt;span style=&quot;background-color: initial;&quot;&gt;①任务单变为&lt;/span&gt;待过程结算确认&lt;br&gt;②待处理ERP变为满足条件的ERP" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;glass=0;strokeWidth=1;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="1">
+          <mxGeometry x="324" y="390" width="140" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram id="XprrKTA8UYP0u6XJbDug" name="状态图转换">
     <mxGraphModel dx="1550" dy="-334" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -299,71 +364,6 @@
         </mxCell>
         <mxCell id="sqp38s1DqcMGhquIfbrA-7" value="操作转派" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;rounded=0;fontSize=13;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="285" y="1230" width="120" height="80" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="zkCcTM8fq7JFRcWxrbdX" name="寻找确认结算组">
-    <mxGraphModel dx="1550" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="4yWfeNI9m5NWleD1tJs8-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Z7CWqkrv_SDCrBXKE-1I-1" target="4yWfeNI9m5NWleD1tJs8-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Z7CWqkrv_SDCrBXKE-1I-1" value="已认领任务" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;glass=0;strokeWidth=1;shadow=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="24" y="169.5" width="96" height="40.5" as="geometry" />
-        </mxCell>
-        <mxCell id="4yWfeNI9m5NWleD1tJs8-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Z7CWqkrv_SDCrBXKE-1I-2" target="4yWfeNI9m5NWleD1tJs8-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="u2u1sDKU7REfBMXMlNqq-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Z7CWqkrv_SDCrBXKE-1I-2" target="u2u1sDKU7REfBMXMlNqq-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Z7CWqkrv_SDCrBXKE-1I-2" value="确认人是否属于结算组" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=13;align=center;strokeWidth=1;spacing=6;spacingTop=-4;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="339" y="150" width="110" height="79" as="geometry" />
-        </mxCell>
-        <mxCell id="4yWfeNI9m5NWleD1tJs8-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4yWfeNI9m5NWleD1tJs8-1" target="Z7CWqkrv_SDCrBXKE-1I-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="4yWfeNI9m5NWleD1tJs8-1" value="认领人操作确认" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;glass=0;strokeWidth=1;shadow=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="166" y="169.5" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="ZDNPm4Z6J83ZKpsJVjza-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="4yWfeNI9m5NWleD1tJs8-4" target="ZDNPm4Z6J83ZKpsJVjza-8">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="4yWfeNI9m5NWleD1tJs8-4" value="查找任务流转表：&lt;br&gt;倒序，找到最后一条满足结算组类型的ERP" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;glass=0;strokeWidth=1;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="330" y="280" width="128" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="4yWfeNI9m5NWleD1tJs8-6" value="NO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="376" y="240" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ZDNPm4Z6J83ZKpsJVjza-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4yWfeNI9m5NWleD1tJs8-7" target="u2u1sDKU7REfBMXMlNqq-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="4yWfeNI9m5NWleD1tJs8-7" value="待处理ERP操作确认" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;glass=0;strokeWidth=1;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="1">
-          <mxGeometry x="525" y="280" width="126" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="ZDNPm4Z6J83ZKpsJVjza-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="u2u1sDKU7REfBMXMlNqq-1" target="ZDNPm4Z6J83ZKpsJVjza-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="u2u1sDKU7REfBMXMlNqq-1" value="待发起人确认" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;glass=0;strokeWidth=1;shadow=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="536" y="169.5" width="104" height="40.5" as="geometry" />
-        </mxCell>
-        <mxCell id="u2u1sDKU7REfBMXMlNqq-3" value="YES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="458" y="160" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ZDNPm4Z6J83ZKpsJVjza-2" value="关单" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;glass=0;strokeWidth=1;shadow=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="706" y="170" width="88" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="ZDNPm4Z6J83ZKpsJVjza-5" value="确认操作寻找最后一条&lt;br&gt;满足结算组类型流程" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=0;flipH=0;flipV=0;size=18;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;align=left;spacing=2;spacingTop=0;spacingBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="24" y="90" width="156" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="ZDNPm4Z6J83ZKpsJVjza-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="1" source="ZDNPm4Z6J83ZKpsJVjza-8" target="4yWfeNI9m5NWleD1tJs8-7">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ZDNPm4Z6J83ZKpsJVjza-8" value="&lt;span style=&quot;background-color: initial;&quot;&gt;①任务单变为&lt;/span&gt;待过程结算确认&lt;br&gt;②待处理ERP变为满足条件的ERP" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;glass=0;strokeWidth=1;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="1">
-          <mxGeometry x="324" y="390" width="140" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
