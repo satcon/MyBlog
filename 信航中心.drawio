@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-14T09:10:44.116Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="SgWKIn_ILOLh5l_vBMdy" version="20.5.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-11-14T09:18:34.434Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="mWEA9yGjeM8dsR5Z9lII" version="20.5.3" type="github" pages="3">
   <diagram id="4lgrj3mp336xDfMQ0uTW" name="信航中心核心流程">
     <mxGraphModel dx="1550" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -402,8 +402,11 @@
         <mxCell id="sqp38s1DqcMGhquIfbrA-6" value="②" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="105" y="1560" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sqp38s1DqcMGhquIfbrA-7" value="操作转派" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;rounded=0;fontSize=13;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="sqp38s1DqcMGhquIfbrA-7" value="① 操作转派" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;rounded=0;fontSize=13;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="285" y="1230" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zEQeaCQ349JBVEI49tbP-2" value="&lt;b&gt;注①&lt;/b&gt;：所有转派操作后，&lt;br&gt;任务单据状态都变为“待认领”&lt;br&gt;&lt;br&gt;&lt;b&gt;注②&lt;/b&gt;：任务发起人、超级超级管理有作废权限" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=0;flipH=0;flipV=0;size=18;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;align=left;spacing=2;spacingTop=0;spacingBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="529" y="1190" width="191" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
